@@ -1,5 +1,5 @@
 main: me.waqe.plugin.App
-name: SpigotPlugin
+name: PlayerVaults
 version: '0.1'
 api: '1'
 api-version: 1.16
@@ -8,3 +8,7 @@ commands:
   version:
     description: Plugin version
     usage: /version
+  playervault:
+    description: Private Vaults
+    usage: /playervault
+    aliases: pv
